@@ -1,4 +1,4 @@
-## Selenium Documentation
+# Selenium Documentation
 # Table of Contents
 
 1. [Introduction](#introduction)
