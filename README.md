@@ -134,5 +134,43 @@ public class OpenBrowser {
 
 ![Screenshot 2024-03-07 145304](https://github.com/Aditi22222/Selenium/assets/162342704/cdfd3354-5d21-4c8a-9fb4-acfb1a3022d1)
 
+# Locators In Selenium (TestNG Priority Attribute)
 
+Selenium WebDriver is a powerful tool for automating web applications. Locators are used to identify elements on a web page, and TestNG's priority attribute allows you to prioritize the execution order of test methods.
+
+#### Locating Elements with Selenium WebDriver
+
+1. **ID Locator:**
+   - Use `driver.findElement(By.id("element_id"))` to locate elements by their ID attribute.
+
+2. **Name Locator:**
+   - Use `driver.findElement(By.name("element_name"))` to locate elements by their Name attribute.
+
+3. **Class Name Locator:**
+   - Use `driver.findElement(By.className("element_class"))` to locate elements by their Class Name attribute.
+
+4. **Tag Name Locator:**
+   - Use `driver.findElement(By.tagName("tag_name"))` to locate elements by their HTML tag.
+
+5. **Link Text Locator:**
+   - Use `driver.findElement(By.linkText("link_text"))` to locate anchor elements by their visible text.
+
+6. **Partial Link Text Locator:**
+   - Use `driver.findElement(By.partialLinkText("partial_link_text"))` to locate anchor elements by partial visible text.
+
+7. **XPath Locator:**
+   - Use `driver.findElement(By.xpath("xpath_expression"))` to locate elements using XPath.
+
+8. **CSS Selector Locator:**
+   - Use `driver.findElement(By.cssSelector("css_selector"))` to locate elements using CSS selectors.
+
+#### Using TestNG Priority Attribute
+
+The priority attribute in TestNG allows you to prioritize the order of test method execution.
+
+1. **Specify Priority in TestNG Annotations:**
+   - Use the `priority` attribute in `@Test` annotation to specify the execution order of test methods.
+   - TestNG will execute the test methods in ascending order of their priority values.
+
+ 
 
