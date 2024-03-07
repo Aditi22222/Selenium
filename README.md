@@ -66,16 +66,6 @@ To set up a basic Selenium project using JDK, Maven, and Eclipse, follow these s
 
 ![Screenshot 2024-03-07 111936](https://github.com/Aditi22222/Selenium/assets/162342704/4b2111f2-4cff-4db6-85f8-66498d1ca426)
 
-## Setting up WebDriver for Chrome Browser
-
-```java
-// Set the system property to specify the location of the ChromeDriver executable
-System.setProperty("webdriver.chrome.driver", "C:\\salanium testing\\chromedriver\\chromedriver-win32\\chromedriver.exe");
-
-// Initialize a new instance of the ChromeDriver class
-driver = new ChromeDriver();
-
-
 ### Step 5: Write Your Selenium Tests
 
 1. Create a new Java class within your Maven project.
