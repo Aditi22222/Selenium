@@ -55,10 +55,11 @@ To set up a basic Selenium project using JDK, Maven, and Eclipse, follow these s
 
 ### Step 4: Add Selenium Dependencies
 
-1. In the Eclipse project explorer, right-click on your Maven project and select "Properties".
-2. In the properties dialog, navigate to "Java Build Path" -> "Libraries" -> "Add External JARs...".
-3. Add the Selenium dependencies to your project. You can download the Selenium Java bindings from the Selenium website or use Maven to manage dependencies automatically.
+1.Save the File: After adding the dependencies, save the pom.xml file.
+2.Update Maven Project: Right-click on your Maven project in the project explorer, navigate to "Maven" -> "Update Project...". This will update the project with the newly added dependencies.
+3.Wait for Dependencies to Download: Maven will automatically download the required libraries and manage them for you. Wait for Maven to finish downloading the dependencies.
 
+Verify Dependencies: Once the dependencies are downloaded successfully, you can verify that they are added to your project by expanding the "Maven Dependencies" folder in the project explorer.
 ### Step 5: Write Your Selenium Tests
 
 1. Create a new Java class within your Maven project.
