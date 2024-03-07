@@ -172,5 +172,6 @@ The priority attribute in TestNG allows you to prioritize the order of test meth
    - Use the `priority` attribute in `@Test` annotation to specify the execution order of test methods.
    - TestNG will execute the test methods in ascending order of their priority values.
 
+![Screenshot 2024-03-07 145816](https://github.com/Aditi22222/Selenium/assets/162342704/23ca662e-6c7f-4517-b954-dfc61088eea6)
  
 
