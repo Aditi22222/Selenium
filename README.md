@@ -132,5 +132,7 @@ public class OpenBrowser {
 
 ![Screenshot 2024-03-07 144713](https://github.com/Aditi22222/Selenium/assets/162342704/9c1b3c06-7987-4801-8d8a-f84db51fa6c2)
 
+![Screenshot 2024-03-07 145304](https://github.com/Aditi22222/Selenium/assets/162342704/cdfd3354-5d21-4c8a-9fb4-acfb1a3022d1)
+
 
 
