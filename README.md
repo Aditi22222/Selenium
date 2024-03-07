@@ -32,18 +32,13 @@ To set up a basic Selenium project using JDK, Maven, and Eclipse, follow these s
    
    ![Screenshot 2024-03-07 102822](https://github.com/Aditi22222/Selenium/assets/162342704/190b5212-a3eb-4b0f-bec3-c53d29395cc2)
 
-### Step 2: Install Maven
 
-1. Download the latest version of Apache Maven from the official website.
-2. Extract the Maven archive to a suitable location on your computer.
-3. Add the bin directory of the Maven installation to the system's PATH environment variable.
-
-### Step 3: Install Eclipse IDE
+### Step 2: Install Eclipse IDE
 
 1. Download and install the Eclipse IDE for Java Developers from the Eclipse Foundation website.
 2. Launch Eclipse and set up any necessary preferences.
 
-### Step 4: Create a Maven Project
+### Step 3: Create a Maven Project
 
 1. Open Eclipse IDE.
 2. Go to "File" -> "New" -> "Other...".
@@ -51,19 +46,19 @@ To set up a basic Selenium project using JDK, Maven, and Eclipse, follow these s
 4. Choose "Create a simple project (skip archetype selection)" and click "Next".
 5. Enter the Group Id, Artifact Id, and Version for your project. Click "Finish" to create the Maven project.
 
-### Step 5: Add Selenium Dependencies
+### Step 4: Add Selenium Dependencies
 
 1. In the Eclipse project explorer, right-click on your Maven project and select "Properties".
 2. In the properties dialog, navigate to "Java Build Path" -> "Libraries" -> "Add External JARs...".
 3. Add the Selenium dependencies to your project. You can download the Selenium Java bindings from the Selenium website or use Maven to manage dependencies automatically.
 
-### Step 6: Write Your Selenium Tests
+### Step 5: Write Your Selenium Tests
 
 1. Create a new Java class within your Maven project.
 2. Write your Selenium test code using the Selenium WebDriver API.
 3. Make sure to include necessary import statements for Selenium classes.
 
-### Step 7: Run Your Selenium Tests
+### Step 6: Run Your Selenium Tests
 
 1. Right-click on your test class and select "Run As" -> "JUnit Test".
 2. Eclipse will execute your Selenium tests using the configured WebDriver and display the results in the JUnit view.
