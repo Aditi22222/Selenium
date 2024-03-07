@@ -175,4 +175,44 @@ The priority attribute in TestNG allows you to prioritize the order of test meth
 ![Screenshot 2024-03-07 145816](https://github.com/Aditi22222/Selenium/assets/162342704/23ca662e-6c7f-4517-b954-dfc61088eea6)
  
 # Automating Shopping Website  In Selenium
+### Selenium WebDriver Test Case Steps with Bug
+
+#### Test Case: Perform Login, Remove Item from Cart, and Proceed to Checkout
+
+1. **Set Up WebDriver and Navigate to Website:**
+   - Set up Chrome WebDriver using `webdriver.chrome.driver` system property.
+   - Initialize WebDriver and navigate to the website "https://www.saucedemo.com".
+   - Maximize the browser window.
+
+2. **Login to the Application:**
+   - Locate the username field by CSS selector and enter the username "standard_user".
+   - Locate the password field by CSS selector and enter the password "secret_sauce".
+   - Locate the login button by CSS selector and click it.
+
+3. **Remove Item from Cart:**
+   - Locate the "Remove" button for the item by its ID ("remove-sauce-labs-backpack").
+   - Click the "Remove" button.
+
+4. **Proceed to Checkout:**
+   - Locate the "Checkout" button by its ID ("checkout").
+   - Click the "Checkout" button.
+
+5. **Bug: Unable to Proceed to Checkout After Item Removal:**
+   - Observation: After removing the item from the cart, the "Proceed to Checkout" button does not function as expected.
+   - Expected Result: Users should be able to proceed to checkout after removing an item from the cart.
+   - Impact: Users cannot complete purchases, leading to potential loss of sales and negative user experience.
+   - Steps to Reproduce:
+     - Click the "Remove" button for an item in the cart.
+     - Attempt to click the "Checkout" button.
+   - Workaround: Manually verify the checkout process or investigate further to fix the issue.
+   - Note: Additional investigation and debugging are required to identify and resolve the root cause of the issue.
+
+6. **Clean Up:**
+   - Quit the WebDriver instance.
+
+#### Note:
+- Each step performs an action on the web page using Selenium WebDriver.
+- Thread.sleep() is used to introduce delays for demonstration purposes. In practice, it's better to use explicit waits.
+- CSS selectors and IDs are used to locate elements on the web page.
+
 
