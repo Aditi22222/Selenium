@@ -47,6 +47,7 @@ To set up a basic Selenium project using JDK, Maven, and Eclipse, follow these s
 4. Choose "Create a simple project (skip archetype selection)" and click "Next".
 5. Enter the Group Id, Artifact Id, and Version for your project. Click "Finish" to create the Maven project.
    ![Screenshot 2024-03-07 103801](https://github.com/Aditi22222/Selenium/assets/162342704/0e6e7e35-de12-42c7-84b1-5faf3c325c66)
+   ![Screenshot 2024-03-07 103844](https://github.com/Aditi22222/Selenium/assets/162342704/46ab9d6c-395c-46ae-b6fa-3b02eb705d90)
    
 
 ### Step 4: Add Selenium Dependencies
