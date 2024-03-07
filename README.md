@@ -76,9 +76,22 @@ To set up a basic Selenium project using JDK, Maven, and Eclipse, follow these s
 
 ![Screenshot 2024-03-07 115548](https://github.com/Aditi22222/Selenium/assets/162342704/a190ecd3-16df-4d52-a4d1-ab36b55f9f18)
 
+# Open browser using Selenium(WebDriver , Eclipse)
 
-### Step 6: Run Your Selenium Tests
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
-1. Right-click on your test class and select "Run As" -> "JUnit Test".
-2. Eclipse will execute your Selenium tests using the configured WebDriver and display the results in the JUnit view.
+public class OpenBrowser {
+    public static void main(String[] args) {
+        // 1. Set the system property to specify the location of the ChromeDriver executable
+        System.setProperty("webdriver.chrome.driver", "C:\\salanium testing\\chromedriver\\chromedriver-win32\\chromedriver.exe");
+        
+        // 2. Initialize a new instance of the ChromeDriver class
+        WebDriver driver = new ChromeDriver();
+        
+        // 3. Open a new browser window
+        driver.get("https://www.example.com");
+    }
+}
+
 
