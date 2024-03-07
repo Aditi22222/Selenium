@@ -1,4 +1,4 @@
-# Selenium Documentation
+![Screenshot 2024-03-07 115548](https://github.com/Aditi22222/Selenium/assets/162342704/1020993a-3deb-4cb9-b1ff-736842b2bb64)# Selenium Documentation
 # Table of Contents
 
 1. [Introduction](#introduction)
@@ -75,9 +75,11 @@ To set up a basic Selenium project using JDK, Maven, and Eclipse, follow these s
 ![Screenshot 2024-03-07 114828](https://github.com/Aditi22222/Selenium/assets/162342704/68e0fece-95e4-49fe-9964-c0e9ea4daf0b)
 
 
+
+
+
 ### Step 6: Run Your Selenium Tests
 
 1. Right-click on your test class and select "Run As" -> "JUnit Test".
 2. Eclipse will execute your Selenium tests using the configured WebDriver and display the results in the JUnit view.
 
-That's it! You've now set up a basic Selenium project using JDK, Maven, and Eclipse. You can expand upon this setup by adding additional dependencies, configuring test suites, and integrating with other testing frameworks as needed.
