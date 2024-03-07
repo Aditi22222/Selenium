@@ -95,5 +95,39 @@ public class OpenBrowser {
     }
 }
  # Write Testcase, step(TestNG, Installation, Configure)
- 
+
+1. **Open Eclipse IDE:**
+   - Launch the Eclipse IDE on your computer.
+
+2. **Access the Eclipse Marketplace:**
+   - Go to `Help` > `Eclipse Marketplace...` from the top menu bar.
+
+3. **Search for TestNG:**
+   - In the Eclipse Marketplace dialog, type "TestNG" into the search bar.
+
+4. **Select TestNG from Search Results:**
+   - From the search results, find "TestNG for Eclipse" and click on it.
+
+5. **Install TestNG:**
+   - Click on the `Go to the marketplace` button.
+   - Click on the `Install` button next to "TestNG for Eclipse".
+
+6. **Review Installation Details:**
+   - Review the details of the installation including the software being installed and its dependencies.
+
+7. **Accept License Agreement:**
+   - Accept the terms of the license agreement and click `Finish`.
+
+8. **Restart Eclipse:**
+   - Once the installation is complete, Eclipse will prompt you to restart.
+   - Click `Yes` to restart Eclipse.
+
+9. **Verify TestNG Installation:**
+   - After restarting Eclipse, create a new Java project or open an existing one.
+   - Right-click on the project, go to `Properties` > `TestNG`.
+   - Verify that TestNG is listed as one of the testing frameworks.
+
+10. **TestNG is Installed Successfully:**
+    - Congratulations! You have successfully installed TestNG in Eclipse via the Eclipse Marketplace.
+
 
