@@ -37,6 +37,7 @@ To set up a basic Selenium project using JDK, Maven, and Eclipse, follow these s
 
 1. Download and install the Eclipse IDE for Java Developers from the Eclipse Foundation website.
 2. Launch Eclipse and set up any necessary preferences.
+   ![Screenshot 2024-03-07 103403](https://github.com/Aditi22222/Selenium/assets/162342704/ca0c9b41-4892-41ef-b6a1-2857b08f8c6a)
 
 ### Step 3: Create a Maven Project
 
