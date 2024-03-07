@@ -83,13 +83,14 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class OpenBrowser {
     public static void main(String[] args) {
-        // 1. Set the system property to specify the location of the ChromeDriver executable
+       
+         1. Set the system property to specify the location of the ChromeDriver executable
         System.setProperty("webdriver.chrome.driver", "C:\\salanium testing\\chromedriver\\chromedriver-win32\\chromedriver.exe");
         
-        // 2. Initialize a new instance of the ChromeDriver class
+        2. Initialize a new instance of the ChromeDriver class
         WebDriver driver = new ChromeDriver();
         
-        // 3. Open a new browser window
+         3. Open a new browser window
         driver.get("https://www.example.com");
     }
 }
