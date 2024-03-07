@@ -215,4 +215,12 @@ The priority attribute in TestNG allows you to prioritize the order of test meth
 - Thread.sleep() is used to introduce delays for demonstration purposes. In practice, it's better to use explicit waits.
 - CSS selectors and IDs are used to locate elements on the web page.
 
+![Screenshot 2024-03-07 151615](https://github.com/Aditi22222/Selenium/assets/162342704/ddcd28a9-7e0e-4937-9282-2ff58d679fd2)
+
+![Screenshot 2024-03-07 151657](https://github.com/Aditi22222/Selenium/assets/162342704/81476d95-0995-436a-9cd0-04b082f38746)
+
+![Screenshot 2024-03-07 151707](https://github.com/Aditi22222/Selenium/assets/162342704/2b10879e-01b0-4a75-ba64-c1c09a9745e1)
+# Output 
+
+![Screenshot 2024-03-07 150907](https://github.com/Aditi22222/Selenium/assets/162342704/2c3b48f6-9352-4655-be10-8c005e54df12)
 
