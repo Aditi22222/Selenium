@@ -94,5 +94,6 @@ public class OpenBrowser {
         driver.get("https://www.example.com");
     }
 }
-
+ # Write Testcase, step(TestNG, Installation, Configure)
+ 
 
